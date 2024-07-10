@@ -1,0 +1,597 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    padding: 20px 37px;
+    background-color: rgb(45, 45, 104); 
+    position: sticky;
+    z-index: 999;
+    top: -10px;
+    box-shadow: 0 -6px 10px 5px rgba(98, 101, 97, 0.5);
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h1{
+    color: rgb(157, 236, 38);
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgb(45, 47, 45);
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 40px;
+    font-weight: 500;
+}
+nav a:hover{
+    color: rgb(157, 236, 38);
+    transition: 0.2s ease-out;
+}
+
+.links{
+    margin-left: 25px;
+}
+
+.btn{
+    border: none;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    padding: 9px 12px;   
+    font-size: 15px; 
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: -5px;
+   
+}
+.btn:hover{
+    background-color: rgb(157, 236, 38);
+    color: black;
+    transition: 0.2s ease-out;
+
+}
+
+.b1{
+    background-image: url(./img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
+
+.b1content2 h2{
+    margin-top: 30px;
+    margin-bottom: 12px;
+    color: rgb(124, 199, 19);
+}
+
+.b1content2 h1{
+    color: rgb(124, 199, 19);
+    font-size: 60px;
+}
+
+.b1content2 p{
+    color: white;
+    margin-top: 10px;
+}
+
+.b1content2 button{
+    border: none;
+    border-radius: 7px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 550;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.b1content2 button:hover{
+    background-color: rgb(157, 236, 38);
+    transition: 0.2s ease-out;   
+}
+
+.ribbon1{
+    background-color: rgb(45, 45, 104);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.b2{
+    background-image: url(./img/2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 100px 150px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+    height: 270px;
+    width: 230px;
+    border-radius: 5px;
+}
+
+.card{
+    text-align: center;
+}
+.card h2{
+    color: rgb(124, 199, 19) ;
+    margin-top: 6px;
+}
+.card p{
+    margin-top: 27px;
+    color: white;
+    font-size: 13px;
+}
+.card h3{
+    margin-top: 10px;
+    color: rgb(124, 199, 19);
+    font-weight: 500;
+}
+
+.ribbon2{
+    background-color: rgb(45, 45, 104);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ribbon2 button{
+        border: none;
+        border-radius: 7px;
+        padding: 10px 20px;
+        font-size: 15px;
+        font-weight: 550;
+        cursor: pointer;
+        margin-left: 15px;
+}
+
+.ribbon2 button:hover{
+    background-color: rgb(157, 236, 38);
+    transition: 0.2s ease-out;   
+}
+
+.b3{
+    background-image: url(./img/3.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 40px;   
+}
+
+.review{ 
+    margin-top: 60px;
+    border: 1px solid white;
+    box-shadow: 2px 1px 8px black;
+    border-radius: 7px;
+    padding: 20px 20px;
+    height: 280px;
+    width: 250px;
+}
+
+.review h3{
+    color: rgb(255, 196, 0);
+    font-size: 15px;
+}
+.review p{
+    color: white;
+    margin-top: 30px;
+}
+.review h4{
+    color: rgb(255, 208, 0);
+    margin-top: 35px;
+}
+
+.ribbon3{
+    background-color: rgb(45, 45, 104);
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.b4{
+    background-image: url(./img/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 600px; */
+    width: 100%;
+    padding: 50px 40px;   
+}
+
+.b4 h1{
+    font-size: 52px;
+    color: rgb(248, 248, 38);
+}
+
+.qa{
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-top: 60px;
+    padding: 18px 30px;
+}
+
+.Q{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Q p{
+    font-size: 30px;
+    color: white;
+}
+.A p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.A{
+    display: none;
+}
+
+.Q button{
+    border: none;
+    border-radius: 7px;
+    padding: 8px 12px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Q button:hover{
+    background-color: rgb(157, 236, 38);
+    transition: 0.3s ease-out;
+}
+
+
+footer{
+    background-image: url(./img/3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 40px;   
+}
+
+.aichatbot h1{
+    color: rgb(157, 236, 38);
+    font-size: 28px;
+    font-weight: 700;
+    text-shadow: 1px 1px 5px rgb(45, 47, 45);
+}
+
+.aichatbot p{
+    color: white;
+    margin-top: 20px;
+}
+
+.information{
+    margin-top: 50px;
+    padding: 5px 67px 0px 0px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.social{
+    color: white;
+    margin-top: 50px;
+}
+.social i{
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.copyright{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+}
+
+/* form css for other page */
+
+body{
+    background-image: url(./img/4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.signup{
+    margin: 100px auto;
+    height: 400px;
+    width: 330px;
+    border: 1px solid  rgb(157, 236, 38);
+    border-radius: 17px;
+    padding: 20px 25px;
+}
+
+.forminfo h1{
+    text-align: center;
+    color:  rgb(157, 236, 38);
+    margin: 15px 0 38px 0;
+}
+
+.inputbox{
+    height: 37px;
+    width: 100%;
+    margin-top: 25px;
+    border: 1px solid  rgb(157, 236, 38);
+    border-radius: 19px;
+    position: relative;
+}
+
+.inputbox input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    color: white;
+}
+.inputbox i{
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: 9px;
+}
+
+.remember{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 15px;
+}
+.remember a{
+    text-decoration: none;
+    color: white;
+}
+
+.remember a:hover{
+    color:  rgb(157, 236, 38);
+    transition: 0.3s ease-out;
+}
+
+.signup button{
+    outline: none;
+    border: 1px solid;
+    width: 100%;
+    border-radius: 27px;
+    padding: 12px 0;
+    margin-top: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+}
+.signup button:hover{
+    background-color:  rgb(157, 236, 38);
+    transition: 0.3s ease-out;
+}
+
+/* media query */
+
+/* sidebar menubutton */
+.sidebar{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    height: 100vh;
+    width: 250px;
+    display: none;
+    flex-direction: column;
+    padding: 15px 60px;
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    backdrop-filter: blur(10px);
+    transition: 0.5s ease-out;
+}
+
+.sidebar a{
+    margin: 15px 0;
+    width: 100%;
+}
+.sidebar .btn{
+    width: 80px;
+}
+#menubar{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#menubar:hover{
+    color: rgb(157, 236, 38);
+}
+
+#crossbar{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 36px;
+    top: 24px;
+}
+#crossbar:hover{
+    color: rgb(157, 236, 38);
+}
+
+
+@media only screen and (max-width:1100px){
+    .cards{
+        gap: 20px;
+    }
+}
+@media only screen and (max-width:888px){
+    .review{
+        height: 268px;
+        width: 212px;
+    }
+    .review h4{
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width:792px){
+    nav a{
+        margin-right: 21px;
+    }
+    .card img{
+        height: 226px;
+    width: 185px;
+    }
+}
+
+@media only screen and (max-width:770px){
+    .review{
+        height: 234px;
+        width: 192px;
+    }
+    .review p{
+        margin-top: 12px;
+        font-size: 13px;
+    }
+    .review h4{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    .Q p {
+        font-size: 23px;
+    }
+    .A p{
+        font-size: 18px;
+    }
+    .b4 h1{
+        font-size: 43px;
+    }
+}
+
+@media only screen and (max-width:697px){
+    .links{
+        display: none;
+    }
+
+    #menubar{
+        display: block;
+    }
+}
+
+@media only screen and (max-width:652px){
+    .b3{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:627px){
+    .cards{
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:627px){
+    .btn{
+        margin-left: 200px;
+    }
+}
+
+@media only screen and (max-width:377px){
+
+
+
+    nav h1{
+        font-size: 25px;
+    }
+
+    .links{
+        display: none;
+    }
+
+    .b1content2 h1{
+        font-size: 36px;
+    }
+
+    .b1content2 p{
+        margin-top: 26px;;
+    }
+
+    .ribbon1 h2{
+        font-size: 15px;
+    }
+
+    .cards{
+        flex-wrap: wrap;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .ribbon2 h2{
+        font-size: 17px;
+    }
+
+    .ribbon2 button{
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .ribbon3 h2{
+        font-size: 20px;
+    }
+
+    .b3{
+        flex-wrap: wrap;
+    }
+
+    .b4 h1{
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .Q p{
+        font-size: 16px;
+    }
+
+    .A p{
+        font-size: 16px;
+    }
+
+
+    .info{
+        margin-right: 30px;
+    }
+
+    #menubar{
+        display: block;
+    }
+
+    .info p{
+        font-size: 15px;
+    }
+}
